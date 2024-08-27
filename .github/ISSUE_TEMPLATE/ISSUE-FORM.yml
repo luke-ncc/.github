@@ -45,7 +45,7 @@ body:
         - v0.64
         - v0.66
         - v0.67
-      default: v0.67
+      default: 2
     validations:
       required: true
  
