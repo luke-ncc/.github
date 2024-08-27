@@ -13,19 +13,19 @@ body:
     attributes:
       label: Describe the issue you have come across
       description: Include the software name and version you are using, and what happened that lead to the issue
-      placeholder: 
+   
   - type: input
     id: steps
     attributes:
       label: Steps to reproduce
       description: Describe, in detail, how to reproduce this issue
-      placeholder: 
+     
   - type: input
     id: project
     attributes:
       label: Describe the project you are working on
       description: Include any relevant details about what you are using the format for in your project
-      placeholder: 
+   
     validations:
       required: false
   - type: input
@@ -33,7 +33,7 @@ body:
     attributes:
       label: What features of the format does this affect?
       description: Be as specific as possible, and list all features affected.
-      placeholder: 
+     
     validations:
       required: true
   - type: dropdown
