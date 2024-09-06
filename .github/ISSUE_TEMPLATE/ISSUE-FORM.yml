@@ -8,22 +8,7 @@ body:
     attributes:
       value: |
         Issue reporting
-  - type: textarea
-    id: detail
-    attributes:
-      label: Describe the issue you have come across
-      description: Include the software name and version you are using, and what happened that lead to the issue
-    validations:
-      required: true
-       
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      description: Describe, in detail, how to reproduce this issue
-    validations:
-      required: true
-     
+
   - type: textarea
     id: project
     attributes:
@@ -31,7 +16,17 @@ body:
       description: Include any relevant details about what you are using the format for in your project
    
     validations:
-      required: false
+      required: true
+      
+  - type: textarea
+    id: detail
+    attributes:
+      label: Describe the issue you have come across
+      description: Include the software name and version you are using, and what happened that lead to the issue
+    validations:
+      required: true
+     
+      
   - type: textarea
     id: specifics
     attributes:
